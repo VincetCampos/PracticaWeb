@@ -2,8 +2,80 @@
 <html>
 <head>
     <title>Practica de web</title>
+    <style>
+        table,th,td{
+            border: 1px solid blue;
+        }
+    </style>
 </head>
 <body>
-    pos si se puede
+    <!--Hola-->
+    <table style="width: 500px;">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>    
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sandia</td>
+                    <td>10 Pesos</td>
+                </tr>
+                <tr>
+                    <td>Si esta feliz</td>
+                    <td>muy feliz</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Felicidad absoluta</td>
+            </tfoot>
+    </table>
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento4</li>
+        <li>Elemento3</li>
+    </ul>
+    <ol>
+        <li value="80">Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento4</li>
+        <li>Elemento3</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-greek;">Mas Elemnto1</li>
+                <li style="list-style-type: lower-roman;">Mas Elemnto3</li>
+                <li style="list-style-type: lower-alpha;">Mas Elemnto2</li>
+            </ol>
+        </li>
+
+    </ol>
+    <h1>Practica de html</h1>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="Pancho" type="text" id="nombre" name="nombre" placeholder="Pancho"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Pistolas"/>
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea rows="10" cols="50" id="comentario" placeholder="UUU" name="comentario"></textarea>
+        <input type="submit"/>
+        <br>
+        <button type="button">boton</button>
+        <button type="reset">Reset</button>
+        <button type="submit">enviar</button>
+    </form>
+    <h2> El segundo heading</h2>
+    <p>Esto es para el texto</p>
+    <p>Otro texto mas</p>
+    <hr>
+    <h2>Otro titulo</h2>
+    <p>Y es asi como <span style="color:blue"> se hace un texto mas grande </span> <br> pero no se que mas agregar</p>
+    <a target="_blank" href="https://www.google.com/"> ir a google</a>
+    <hr>
+    <img src="imagenes/calaca.png" width="400" height="300"/>
 </body>
-</html>
+</html> 
